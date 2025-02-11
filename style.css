@@ -1,0 +1,224 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+    background-color: var(--color-primary);
+    border-radius: 20px 20px 0 0;
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedor para la cantidad de amigos */
+.quantity-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.input-quantity {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.button-quantity {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--color-button);
+    color: var(--color-white);
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-quantity:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.input-name {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.button-add {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--color-button);
+    color: var(--color-white);
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-add:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.name-list li {
+    background-color: var(--color-white);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor del resultado */
+.resultado-container {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el botón deshabilitado */
+.button-draw:disabled,
+.button-repeat:disabled {
+    background-color: #ccc; /* Gris */
+    cursor: not-allowed;
+}
+
+.button-draw:disabled:hover,
+.button-repeat:disabled:hover {
+    background-color: #ccc; /* Mantener gris al pasar el mouse */
+}
+
+/* Botón de sortear título */
+.button-draw,
+.button-repeat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+}
+
+.button-draw img,
+.button-repeat img {
+    margin-right: 10px;
+}
+
+.button-draw:hover,
+.button-repeat:hover {
+    background-color: var(--color-button-hover);
+}
