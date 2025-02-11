@@ -2,7 +2,7 @@
 
 ¡Bienvenido al proyecto **Amigo Secreto**! te permite organizar un sorteo de amigo secreto. Ingresa los nombres de tus amigos, realiza el sorteo y descubre quién le toca a quién. 
 
-## Características principales ✨
+## Características principales
 
 - **Ingreso de nombres:** Agrega los nombres de tus amigos uno por uno.
 - **Sorteo justo:** El algoritmo asegura que nadie sea asignado a sí mismo.
