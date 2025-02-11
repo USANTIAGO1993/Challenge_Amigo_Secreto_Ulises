@@ -12,8 +12,6 @@
 
 ---
 
-## Cómo usar 🚀
-
 ### Requisitos previos
 
 - Un navegador web moderno (Chrome, Firefox, Edge, etc.).
@@ -38,8 +36,6 @@
    - Si deseas realizar otro sorteo, haz clic en "Repetir".
    - El resultado anterior se borrará y podrás sortear nuevamente.
 
----
-
 ## Estructura del proyecto 📂
 
 El proyecto consta de los siguientes archivos:
@@ -49,9 +45,7 @@ El proyecto consta de los siguientes archivos:
 - **`app.js`:** Implementa la lógica del sorteo y la interacción con el usuario.
 - **`README.md`:** Este archivo, que describe el proyecto.
 
----
-
-## Tecnologías utilizadas 💻
+## Tecnologías utilizadas
 
 - **HTML5:** Para la estructura de la aplicación.
 - **CSS3:** Para los estilos y el diseño responsive.
