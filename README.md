@@ -7,7 +7,6 @@
 - **Ingreso de nombres:** Agrega los nombres de tus amigos uno por uno.
 - **Sorteo justo:** El algoritmo asegura que nadie sea asignado a sí mismo.
 - **Resultado visual:** El nombre sorteado se muestra en un rectángulo verde.
-- **Repetir sorteo:** Puedes realizar otro sorteo con los mismos nombres.
 - **Diseño responsive:** Funciona en dispositivos móviles y de escritorio.
 
 ---
@@ -20,8 +19,7 @@
 ### Instrucciones
 
 1. **Ingresa la cantidad de amigos:**
-   - Escribe la cantidad de amigos que participarán en el sorteo.
-   - Haz clic en "Establecer cantidad".
+      - Haz clic en "Establecer cantidad".
 
 2. **Agrega los nombres:**
    - Escribe el nombre de un amigo en el campo de texto.
@@ -31,10 +29,6 @@
 3. **Realiza el sorteo:**
    - Haz clic en "Sortear amigo" para realizar el sorteo.
    - El nombre sorteado se mostrará en un rectángulo verde.
-
-4. **Repetir el sorteo (opcional):**
-   - Si deseas realizar otro sorteo, haz clic en "Repetir".
-   - El resultado anterior se borrará y podrás sortear nuevamente.
 
 ## Estructura del proyecto 📂
 
